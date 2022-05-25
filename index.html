@@ -2,24 +2,151 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Exercise 2</title>
     <style>
+      body {
+        background-color:Black;
+      }
+      h3 {
+        color:white;
+      }
       .request-button {
         background-color:black;
         color:white;
-        
+        border-style:solid;
+        border-width:5px;
+        border-color:white;
+        font-size:5px;
+        height:31px;
+      }
+      .cart-button {
+        background-color:rgb(255,216,20) ;
+        border-style:none;
+        font-size:5px;
+        height:23px;
+        width:105px;
+        border-radius:10px;
+      }
+      .sign-button {
+        background-color:rgb(46,164,79);
+        border-style:none;
+        border-color: white;
+        font-size:5px;
+        color:white;
+        height: 24px;
+        width:70px;
+        border-radius:3px;
+      }
+      .btn {
+        background-color:white;
+        border-width:5px;
+        margin:0;
+        padding:0;
+        border:4px;
+        border-style:solid;
+        border-color:white;
+        width:fit-content;
+      }
+      .started-button {
+        background-color:rgb(121,87,179);
+        border:0;
+        border-style: none;
+        border-color:white;
+        font-weight:450;
+        font-size:3px ;
+        color:white;
+        height:24px;
+        width:60px;
+        border-radius:2px;
+      }
+      .Download-button {
+        background-color:rgb(108,117,125);
+        font-weight:450;
+        border:3px;
+        color: black;
+        font-size:3px;
+        width: 60px;
+        height:24px;
+        border-radius:2px;
+      }
+      .Apply-button {
+        background-color:rgb(10,102,194);
+        font-weight:450;
+        font-size:3px;
+        color:white;
+        border:10px;
+        height:24px;
+        border-radius:12px;
+        width:160px;
+      }
+      .save-button {
+        background-color:white;
+        font-size:3px;
+        color:rgb(10,102,194);
+        border-style:solid;
+        border-color:rgb(10,102,194);
+        border-width:1px;
+        height:22px;
+        border-radius:12px;
+        width:39px;
+      }
+      #bottom-container{
+      background-color:white;
+      margin-bottom:50px;
+      }
+      p {
+        padding-left:10px;
+      }
+      .p-Back {
+        color: rgb(0,113,133);
+        text-decoration:underline;
+        padding-left:10px;
+      }
+      h2 {
+        font-size:20px;
+        font-weight:600;
+        padding-left:10px;
+      }
+      .p-stock {
+        color:rgb(0,118,0);
+        padding-left:10px;
+      }
+      .Add-button {
+        background-color: rgb(255,216,20);
+        border:0;
+        height:24px;
+        width:100px;
+       border-radius:12px;
+       margin-left: 10px;
+       margin-bottom:10px;
+      }
+      .Buy-button {
+        background-color: rgb(255,164,28);
+        border: 0;
+        height: 24px;
+        width:100px;
+        border-radius:12px;
+        margin-left:10px;
+        margin-bottom:10px;
       }
     </style>
+    <title></title>
   </head>
   <body>
     <h3>Uber</h3>
-    <button class="requst-button">Request now</button>
+     <button class="request-button">Request now</button>
+    <br />
     <br />
     <h3>Amazon</h3>
-    <button class="cart-button">Add to cart</button>
+    <div class="btn">
+       <button class="cart-button">Add to cart</button>
+    </div>
+    <br />
     <br />
     <h3>Github</h3>
-    <button class="sign-button">Sign up</button>
+      <div class="btn">
+       <button class="sign-button">Sign up</button>
+      </div>
+    <br />
     <br />
     <h3>Bootstrap</h3>
     <div class="btn">
@@ -31,6 +158,17 @@
     <div class="btn">
       <button class="Apply-button">Apply on company website</button>
       <button class="save-button" type="submit">Save</button>
+    </div>
+    <div id="bottom-container">
+      <p class="p-Back">Back to Amazon</p>
+      <br />
+      <h2>Nike Black Running Shoes</h2>
+      <p class="p-stock">$39-in stock.</p>
+      <p>Free delivery tomorrow.</p>
+      <button class="Add-button">Add to cart</button>
+      <button class="Buy-button">Buy now</button>
+      
+      <p></p>
     </div>
     
   </body>
